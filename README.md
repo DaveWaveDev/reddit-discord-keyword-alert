@@ -41,3 +41,37 @@ Keyword match found
 Subreddit: r/Anthropic
 Keyword: Claude Code
 Post: https://reddit.com/...
+```
+
+What This Bot Does Not Do
+
+This project does not:
+
+post to Reddit
+comment on Reddit
+vote on Reddit content
+send DMs or chat messages
+take moderation actions
+scrape Reddit outside the official API
+match Reddit users with Discord users or other off-platform identities
+resell Reddit data
+use Reddit data for AI or model training
+Data Minimization
+
+This bot is designed to minimize data handling.
+
+Only a small set of public subreddits is monitored.
+Only a small set of configured keywords is checked.
+Only minimal alert data is sent to Discord.
+No long-term storage of Reddit content is intended beyond basic operational deduplication if needed.
+Status
+
+Template repository for Reddit API access request and personal bot development.
+
+Planned Environment Variables
+
+See .env.example.
+
+Notes
+
+This repository is for a personal, external integration and is not a Devvit app.
